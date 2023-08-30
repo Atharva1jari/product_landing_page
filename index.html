@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>product landing page</title>
+</head>
+<style>
+body
+{
+background-color: black;
+margin: 0%;
+}
+.navbar-container
+{
+padding: 15px;
+       
+       text-align: right;
+       width: 100%;
+       position: Fixed;
+       left: 0;
+       top: 0;
+       right: 0;
+    }
+    .Nav-heading
+    {
+        margin-right: 50px;
+       color: white;
+       text-decoration: none;
+       padding: 10px;
+       font-size: 20px;
+     
+    }
+    .left 
+    {
+    max-width: 50%;
+    padding: 0 64px;
+    }
+
+    .title 
+    {
+    font-size: 2.8em;
+    letter-spacing: 1px;
+    margin: 48px auto;
+    color: aliceblue;
+     }
+
+    .title strong 
+    {
+    font-size: 1.5em;
+    display: block;
+    line-height: 80px;
+    color: aliceblue;
+    }
+    .msg 
+    {
+     color: aliceblue;
+     max-width: 80%;
+    font-size: 1em;
+    letter-spacing: 0.7px;
+    line-height: 32px;
+    margin-bottom: 48px;
+    }
+    .button
+    {
+      width: 180px;
+      border-radius: 20px;
+      padding: 10px;
+    }
+    .button:hover
+    {
+      background-color: rgb(165, 174, 171);
+    }
+    .right
+    {
+        
+    }
+ .mainbox
+ {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .img
+ {
+    height: 500px;
+ }
+ .colorwatch
+ {    
+    display: flex;
+    justify-content: space-around;
+ }
+ .smallimg{
+    height: 80px;
+ }
+ .smallimg:hover
+ {
+    height: 90px;
+    transition: 1s;
+ }
+ .navbtn
+ {
+    border-radius: 20px;
+    color: black;
+ }
+ 
+</style>
+<body>
+    <navbar class="navbar-container">
+        <div>
+            <a  class="Nav-heading">Home</a>
+            <button class="Nav-heading navbtn">About</button>
+            <a  class="Nav-heading">Product</a>
+            <a  class="Nav-heading">Login</a>
+        </div>
+    </navbar>
+    <div class="mainbox">
+        
+            <div class="left">
+                <p class="title">SmartWatch <strong>Fitbit Iconic.</strong></p>
+                <p class="msg">Altimeter, Gyroscope, GPS, Heart Rate Monitor</p>
+                <button class="button">Buy now for $244.60</button>
+            </div>
+
+            <div class="right">
+                <img class="img"src="./images/mainpage.png" alt="">
+            
+             <div class="colorwatch">
+                  <div class="item">
+                     <img class="smallimg" src="./images/blue.png" >
+                  </div>
+                  <div class="item">
+                     <img class="smallimg" src="./images/pink.png" >
+                  </div>
+                  <div class="item">
+                     <img class="smallimg" src="./images/brown.png" >
+                  </div>
+
+              </div>
+            </div>
+    </div>
+    
+</body>
+</html>
